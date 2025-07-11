@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 51df16acffa33d748b53009a67fff154
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7445645699882555904
+    second: BossSkullOpenMouth_2_0
+  - first:
+      213: -8850358606815132635
+    second: BossSkullOpenMouth_2_1
+  - first:
+      213: 8523384671180293925
+    second: BossSkullOpenMouth_2_2
+  - first:
+      213: -7824331528209064879
+    second: BossSkullOpenMouth_2_3
+  - first:
+      213: 4377443742735474590
+    second: BossSkullOpenMouth_2_4
+  - first:
+      213: 8478843922214033934
+    second: BossSkullOpenMouth_2_5
+  - first:
+      213: -1926533992031106912
+    second: BossSkullOpenMouth_2_6
+  - first:
+      213: 5755034779586130188
+    second: BossSkullOpenMouth_2_7
+  - first:
+      213: 4659411047110443627
+    second: BossSkullOpenMouth_2_8
+  - first:
+      213: 5616998866119658022
+    second: BossSkullOpenMouth_2_9
+  - first:
+      213: 4824594524714437810
+    second: BossSkullOpenMouth_2_10
+  - first:
+      213: -5721646223028544850
+    second: BossSkullOpenMouth_2_11
+  - first:
+      213: 403498399299922211
+    second: BossSkullOpenMouth_2_12
+  - first:
+      213: 5404709106937475667
+    second: BossSkullOpenMouth_2_13
+  - first:
+      213: 2349390618836870581
+    second: BossSkullOpenMouth_2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1928
+        width: 79
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a1ae8b05f345760800000000000000
+      internalID: 7445645699882555904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1927
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52486f10db53d2580800000000000000
+      internalID: -8850358606815132635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1927
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52706b91335294670800000000000000
+      internalID: 8523384671180293925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_3
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1927
+        width: 79
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c95302ee36a6390800000000000000
+      internalID: -7824331528209064879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_4
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1926
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f110e24edcfbc30800000000000000
+      internalID: 4377443742735474590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1926
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1c89df97eaa570800000000000000
+      internalID: 8478843922214033934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_6
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1925
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8454d9a839345e0800000000000000
+      internalID: -1926533992031106912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_7
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1925
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01ff3bf3adfddf40800000000000000
+      internalID: 5755034779586130188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1668
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b628c8529ad89a040800000000000000
+      internalID: 4659411047110443627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1668
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a85d665b693fd40800000000000000
+      internalID: 5616998866119658022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1668
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc06ee882764f240800000000000000
+      internalID: 4824594524714437810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1667
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa9de12311a890b0800000000000000
+      internalID: -5721646223028544850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_12
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1667
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e5b508a3899500800000000000000
+      internalID: 403498399299922211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1666
+        width: 79
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352b3512c42610b40800000000000000
+      internalID: 5404709106937475667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSkullOpenMouth_2_14
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1665
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5286af156ba9020800000000000000
+      internalID: 2349390618836870581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossSkullOpenMouth_2_0: 7445645699882555904
+      BossSkullOpenMouth_2_1: -8850358606815132635
+      BossSkullOpenMouth_2_10: 4824594524714437810
+      BossSkullOpenMouth_2_11: -5721646223028544850
+      BossSkullOpenMouth_2_12: 403498399299922211
+      BossSkullOpenMouth_2_13: 5404709106937475667
+      BossSkullOpenMouth_2_14: 2349390618836870581
+      BossSkullOpenMouth_2_2: 8523384671180293925
+      BossSkullOpenMouth_2_3: -7824331528209064879
+      BossSkullOpenMouth_2_4: 4377443742735474590
+      BossSkullOpenMouth_2_5: 8478843922214033934
+      BossSkullOpenMouth_2_6: -1926533992031106912
+      BossSkullOpenMouth_2_7: 5755034779586130188
+      BossSkullOpenMouth_2_8: 4659411047110443627
+      BossSkullOpenMouth_2_9: 5616998866119658022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

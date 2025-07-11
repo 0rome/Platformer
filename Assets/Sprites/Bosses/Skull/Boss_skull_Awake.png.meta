@@ -1,0 +1,1690 @@
+fileFormatVersion: 2
+guid: 1a24cea16d88b55479d40063722aa996
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3352009086133194742
+    second: Boss_skull_Awake_0
+  - first:
+      213: 2171471341162471525
+    second: Boss_skull_Awake_1
+  - first:
+      213: -7005888411063064746
+    second: Boss_skull_Awake_2
+  - first:
+      213: 2012449886599615103
+    second: Boss_skull_Awake_3
+  - first:
+      213: -6592750250564172262
+    second: Boss_skull_Awake_4
+  - first:
+      213: 6474604229084540376
+    second: Boss_skull_Awake_5
+  - first:
+      213: -5564603478095829203
+    second: Boss_skull_Awake_6
+  - first:
+      213: 2881410785106959655
+    second: Boss_skull_Awake_7
+  - first:
+      213: 4487826020171113492
+    second: Boss_skull_Awake_8
+  - first:
+      213: 8111745425300139806
+    second: Boss_skull_Awake_9
+  - first:
+      213: 319997682105958280
+    second: Boss_skull_Awake_10
+  - first:
+      213: -7932715045504580817
+    second: Boss_skull_Awake_11
+  - first:
+      213: 7180417366735913477
+    second: Boss_skull_Awake_12
+  - first:
+      213: 2236733115198612348
+    second: Boss_skull_Awake_13
+  - first:
+      213: 2750876094853975536
+    second: Boss_skull_Awake_14
+  - first:
+      213: 3465608483951974837
+    second: Boss_skull_Awake_15
+  - first:
+      213: 7769685857331968510
+    second: Boss_skull_Awake_16
+  - first:
+      213: 7422468884957672899
+    second: Boss_skull_Awake_17
+  - first:
+      213: 2278190599847111361
+    second: Boss_skull_Awake_18
+  - first:
+      213: -6813423948194537417
+    second: Boss_skull_Awake_19
+  - first:
+      213: 6329706974168303449
+    second: Boss_skull_Awake_20
+  - first:
+      213: 1368583142694765385
+    second: Boss_skull_Awake_21
+  - first:
+      213: 1809783504272747007
+    second: Boss_skull_Awake_22
+  - first:
+      213: 6484682902068217921
+    second: Boss_skull_Awake_23
+  - first:
+      213: -6924175391993416448
+    second: Boss_skull_Awake_24
+  - first:
+      213: -5977712804220042627
+    second: Boss_skull_Awake_25
+  - first:
+      213: 541205688572353949
+    second: Boss_skull_Awake_26
+  - first:
+      213: -3364207432187058322
+    second: Boss_skull_Awake_27
+  - first:
+      213: -6023990289861098530
+    second: Boss_skull_Awake_28
+  - first:
+      213: -2413389841077711068
+    second: Boss_skull_Awake_29
+  - first:
+      213: -7832756331515422478
+    second: Boss_skull_Awake_30
+  - first:
+      213: -2482698807753299756
+    second: Boss_skull_Awake_31
+  - first:
+      213: -8060285125845623140
+    second: Boss_skull_Awake_32
+  - first:
+      213: -972877208604838656
+    second: Boss_skull_Awake_33
+  - first:
+      213: -689147999656076749
+    second: Boss_skull_Awake_34
+  - first:
+      213: -8715069219283039362
+    second: Boss_skull_Awake_35
+  - first:
+      213: 1165961293230700882
+    second: Boss_skull_Awake_36
+  - first:
+      213: 7174708817795472105
+    second: Boss_skull_Awake_37
+  - first:
+      213: 2369258997959508207
+    second: Boss_skull_Awake_38
+  - first:
+      213: -892178642525795435
+    second: Boss_skull_Awake_39
+  - first:
+      213: -2372539049861589513
+    second: Boss_skull_Awake_40
+  - first:
+      213: -3097901581185848188
+    second: Boss_skull_Awake_41
+  - first:
+      213: -5702363220840824414
+    second: Boss_skull_Awake_42
+  - first:
+      213: -5326234776233740950
+    second: Boss_skull_Awake_43
+  - first:
+      213: -4111268284105469389
+    second: Boss_skull_Awake_44
+  - first:
+      213: 1522349225422198076
+    second: Boss_skull_Awake_45
+  - first:
+      213: -1193495408417830865
+    second: Boss_skull_Awake_46
+  - first:
+      213: -923990076864897739
+    second: Boss_skull_Awake_47
+  - first:
+      213: 7143402657054986611
+    second: Boss_skull_Awake_48
+  - first:
+      213: 8530193337797414546
+    second: Boss_skull_Awake_49
+  - first:
+      213: -7624873769232594379
+    second: Boss_skull_Awake_50
+  - first:
+      213: 6288882269828942785
+    second: Boss_skull_Awake_51
+  - first:
+      213: 8658413038087981762
+    second: Boss_skull_Awake_52
+  - first:
+      213: 2200501179224290139
+    second: Boss_skull_Awake_53
+  - first:
+      213: 2136529718356420332
+    second: Boss_skull_Awake_54
+  - first:
+      213: -4001003621506406255
+    second: Boss_skull_Awake_55
+  - first:
+      213: -6941435888579513207
+    second: Boss_skull_Awake_56
+  - first:
+      213: 6773797516666551460
+    second: Boss_skull_Awake_57
+  - first:
+      213: 3153576532413068031
+    second: Boss_skull_Awake_58
+  - first:
+      213: 5548846709728721639
+    second: Boss_skull_Awake_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_skull_Awake_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1956
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffc9de018ab48e20800000000000000
+      internalID: 3352009086133194742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1955
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5602ee90ead922e10800000000000000
+      internalID: 2171471341162471525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1955
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6576f82eb9516ce90800000000000000
+      internalID: -7005888411063064746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1955
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f729b0b6288adeb10800000000000000
+      internalID: 2012449886599615103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1955
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a164146b398d184a0800000000000000
+      internalID: -6592750250564172262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_5
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1954
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd63df0e3a6ad950800000000000000
+      internalID: 6474604229084540376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_6
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1954
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27e1348e9e86c2b0800000000000000
+      internalID: -5564603478095829203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_7
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1954
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d974ab7d3dcf720800000000000000
+      internalID: 2881410785106959655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1698
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ed02ecf5f74e30800000000000000
+      internalID: 4487826020171113492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1697
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2a678c75b29070800000000000000
+      internalID: 8111745425300139806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1697
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fbfda423cd07400800000000000000
+      internalID: 319997682105958280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_11
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1697
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f238d4802b559e190800000000000000
+      internalID: -7932715045504580817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_12
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1697
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50207533d87f5a360800000000000000
+      internalID: 7180417366735913477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_13
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1696
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7324c4eae87a0f10800000000000000
+      internalID: 2236733115198612348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1696
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd82e6cb331d2620800000000000000
+      internalID: 2750876094853975536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_15
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1696
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b99988fd80581030800000000000000
+      internalID: 3465608483951974837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1440
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9f5a62f1873db60800000000000000
+      internalID: 7769685857331968510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1440
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5ba4cff18e10760800000000000000
+      internalID: 7422468884957672899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1439
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca658ab742cd9f10800000000000000
+      internalID: 2278190599847111361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1439
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730a9b7a40bd171a0800000000000000
+      internalID: -6813423948194537417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_20
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1439
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9574d9fe4f2a7d750800000000000000
+      internalID: 6329706974168303449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1439
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943c8e10e1f2ef210800000000000000
+      internalID: 1368583142694765385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_22
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1439
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9e98c2284ad1910800000000000000
+      internalID: 1809783504272747007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_23
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1439
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14843dafdb83ef950800000000000000
+      internalID: 6484682902068217921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1182
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0053bb5ba2368ef90800000000000000
+      internalID: -6924175391993416448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1182
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72092730e5ea0da0800000000000000
+      internalID: -5977712804220042627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1182
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d96c1d4bfb28700800000000000000
+      internalID: 541205688572353949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1182
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67e2cd2a2fef41d0800000000000000
+      internalID: -3364207432187058322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_28
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1181
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed34d627fbc766ca0800000000000000
+      internalID: -6023990289861098530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_29
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1181
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fc60ae9bae18ed0800000000000000
+      internalID: -2413389841077711068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_30
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1181
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8d4dfbd957c4390800000000000000
+      internalID: -7832756331515422478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_31
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1181
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d82497969eab8dd0800000000000000
+      internalID: -2482698807753299756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 925
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e5b9d126d142090800000000000000
+      internalID: -8060285125845623140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 925
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005f8035555af72f0800000000000000
+      internalID: -972877208604838656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 924
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a14daab87af66f0800000000000000
+      internalID: -689147999656076749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_35
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 924
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b81bf28badd0780800000000000000
+      internalID: -8715069219283039362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_36
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 924
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259fed06e935e2010800000000000000
+      internalID: 1165961293230700882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_37
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 924
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eadf8318afa19360800000000000000
+      internalID: 7174708817795472105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_38
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 924
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0464a718c41e020800000000000000
+      internalID: 2369258997959508207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_39
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 924
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b4f0860485e93f0800000000000000
+      internalID: -892178642525795435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 668
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5d14ded4c031fd0800000000000000
+      internalID: -2372539049861589513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_41
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 667
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ceb40ecea0205d0800000000000000
+      internalID: -3097901581185848188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_42
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 667
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1c781fcd22dd0b0800000000000000
+      internalID: -5702363220840824414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_43
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 667
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65714cc0b96516b0800000000000000
+      internalID: -5326234776233740950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_44
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 667
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332509d2747d1f6c0800000000000000
+      internalID: -4111268284105469389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_45
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 667
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3591650e88702510800000000000000
+      internalID: 1522349225422198076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_46
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 667
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28023cdf3adf6fe0800000000000000
+      internalID: -1193495408417830865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_47
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 667
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d5b7cabe35d23f0800000000000000
+      internalID: -923990076864897739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 411
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37118558ed6722360800000000000000
+      internalID: 7143402657054986611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 411
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e81d455a5516670800000000000000
+      internalID: 8530193337797414546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 411
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a82b784b10f2690800000000000000
+      internalID: -7624873769232594379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_51
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 411
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb086fba19964750800000000000000
+      internalID: 6288882269828942785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_52
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 411
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca48dda8ccd82870800000000000000
+      internalID: 8658413038087981762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_53
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 410
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53fd7be920c98e10800000000000000
+      internalID: 2200501179224290139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_54
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 410
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce623b2857a76ad10800000000000000
+      internalID: 2136529718356420332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_55
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 410
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1982f0b87649978c0800000000000000
+      internalID: -4001003621506406255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 154
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984f11e26d01baf90800000000000000
+      internalID: -6941435888579513207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 154
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac3559c3fc510e50800000000000000
+      internalID: 6773797516666551460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_58
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 154
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff23d7ad521c3cb20800000000000000
+      internalID: 3153576532413068031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_skull_Awake_59
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 154
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eab976fea6710d40800000000000000
+      internalID: 5548846709728721639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_skull_Awake_0: 3352009086133194742
+      Boss_skull_Awake_1: 2171471341162471525
+      Boss_skull_Awake_10: 319997682105958280
+      Boss_skull_Awake_11: -7932715045504580817
+      Boss_skull_Awake_12: 7180417366735913477
+      Boss_skull_Awake_13: 2236733115198612348
+      Boss_skull_Awake_14: 2750876094853975536
+      Boss_skull_Awake_15: 3465608483951974837
+      Boss_skull_Awake_16: 7769685857331968510
+      Boss_skull_Awake_17: 7422468884957672899
+      Boss_skull_Awake_18: 2278190599847111361
+      Boss_skull_Awake_19: -6813423948194537417
+      Boss_skull_Awake_2: -7005888411063064746
+      Boss_skull_Awake_20: 6329706974168303449
+      Boss_skull_Awake_21: 1368583142694765385
+      Boss_skull_Awake_22: 1809783504272747007
+      Boss_skull_Awake_23: 6484682902068217921
+      Boss_skull_Awake_24: -6924175391993416448
+      Boss_skull_Awake_25: -5977712804220042627
+      Boss_skull_Awake_26: 541205688572353949
+      Boss_skull_Awake_27: -3364207432187058322
+      Boss_skull_Awake_28: -6023990289861098530
+      Boss_skull_Awake_29: -2413389841077711068
+      Boss_skull_Awake_3: 2012449886599615103
+      Boss_skull_Awake_30: -7832756331515422478
+      Boss_skull_Awake_31: -2482698807753299756
+      Boss_skull_Awake_32: -8060285125845623140
+      Boss_skull_Awake_33: -972877208604838656
+      Boss_skull_Awake_34: -689147999656076749
+      Boss_skull_Awake_35: -8715069219283039362
+      Boss_skull_Awake_36: 1165961293230700882
+      Boss_skull_Awake_37: 7174708817795472105
+      Boss_skull_Awake_38: 2369258997959508207
+      Boss_skull_Awake_39: -892178642525795435
+      Boss_skull_Awake_4: -6592750250564172262
+      Boss_skull_Awake_40: -2372539049861589513
+      Boss_skull_Awake_41: -3097901581185848188
+      Boss_skull_Awake_42: -5702363220840824414
+      Boss_skull_Awake_43: -5326234776233740950
+      Boss_skull_Awake_44: -4111268284105469389
+      Boss_skull_Awake_45: 1522349225422198076
+      Boss_skull_Awake_46: -1193495408417830865
+      Boss_skull_Awake_47: -923990076864897739
+      Boss_skull_Awake_48: 7143402657054986611
+      Boss_skull_Awake_49: 8530193337797414546
+      Boss_skull_Awake_5: 6474604229084540376
+      Boss_skull_Awake_50: -7624873769232594379
+      Boss_skull_Awake_51: 6288882269828942785
+      Boss_skull_Awake_52: 8658413038087981762
+      Boss_skull_Awake_53: 2200501179224290139
+      Boss_skull_Awake_54: 2136529718356420332
+      Boss_skull_Awake_55: -4001003621506406255
+      Boss_skull_Awake_56: -6941435888579513207
+      Boss_skull_Awake_57: 6773797516666551460
+      Boss_skull_Awake_58: 3153576532413068031
+      Boss_skull_Awake_59: 5548846709728721639
+      Boss_skull_Awake_6: -5564603478095829203
+      Boss_skull_Awake_7: 2881410785106959655
+      Boss_skull_Awake_8: 4487826020171113492
+      Boss_skull_Awake_9: 8111745425300139806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,966 @@
+fileFormatVersion: 2
+guid: b93a5514831c10644a0d2fdc5b1e49d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3432285809305461238
+    second: Xeno Tileset_0
+  - first:
+      213: 751419657897301001
+    second: Xeno Tileset_1
+  - first:
+      213: 4159427689953681807
+    second: Xeno Tileset_2
+  - first:
+      213: 913404749084476158
+    second: Xeno Tileset_3
+  - first:
+      213: -4547411747313854413
+    second: Xeno Tileset_4
+  - first:
+      213: 5631514641376115141
+    second: Xeno Tileset_5
+  - first:
+      213: -1625708288036986461
+    second: Xeno Tileset_6
+  - first:
+      213: 4533344349023575608
+    second: Xeno Tileset_7
+  - first:
+      213: 7642665594197035143
+    second: Xeno Tileset_8
+  - first:
+      213: -337613252513475301
+    second: Xeno Tileset_9
+  - first:
+      213: 6984934947739312848
+    second: Xeno Tileset_10
+  - first:
+      213: 3294438940565013742
+    second: Xeno Tileset_11
+  - first:
+      213: -1398135270156349483
+    second: Xeno Tileset_12
+  - first:
+      213: -2858455375723900150
+    second: Xeno Tileset_13
+  - first:
+      213: -5156082971831454606
+    second: Xeno Tileset_14
+  - first:
+      213: -960574784408201671
+    second: Xeno Tileset_15
+  - first:
+      213: 6037546433515604817
+    second: Xeno Tileset_16
+  - first:
+      213: 424736722709049334
+    second: Xeno Tileset_17
+  - first:
+      213: -7767092451163588009
+    second: Xeno Tileset_18
+  - first:
+      213: -339910680523998653
+    second: Xeno Tileset_19
+  - first:
+      213: -709967911977646106
+    second: Xeno Tileset_20
+  - first:
+      213: -1584631871837846579
+    second: Xeno Tileset_21
+  - first:
+      213: -6817572240090951316
+    second: Xeno Tileset_22
+  - first:
+      213: 2379647203457630091
+    second: Xeno Tileset_23
+  - first:
+      213: -520383830337013939
+    second: Xeno Tileset_24
+  - first:
+      213: -4993098028694244686
+    second: Xeno Tileset_25
+  - first:
+      213: 6834440093836774347
+    second: Xeno Tileset_26
+  - first:
+      213: 7322463434865513119
+    second: Xeno Tileset_27
+  - first:
+      213: 2305181285639396751
+    second: Xeno Tileset_28
+  - first:
+      213: 6012951669342287293
+    second: Xeno Tileset_29
+  - first:
+      213: 1030895743940095192
+    second: Xeno Tileset_30
+  - first:
+      213: -9214759884676623665
+    second: Xeno Tileset_31
+  - first:
+      213: -2803121329153899697
+    second: Xeno Tileset_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xeno Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 267
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1244f22cde1af20800000000000000
+      internalID: 3432285809305461238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 267
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904d63a92349d6a00800000000000000
+      internalID: 751419657897301001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 267
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5321666, y: 0.44683585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81ec98427149b930800000000000000
+      internalID: 4159427689953681807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 267
+        width: 46
+        height: 52
+      alignment: 9
+      pivot: {x: 0.51305324, y: 0.46535903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2c555a7c01dac00800000000000000
+      internalID: 913404749084476158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 267
+        width: 84
+        height: 32
+      alignment: 9
+      pivot: {x: 0.32065365, y: 0.73088837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3385be9eb1954e0c0800000000000000
+      internalID: -4547411747313854413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 267
+        width: 68
+        height: 32
+      alignment: 9
+      pivot: {x: 0.1921077, y: 0.7455311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c972a2bab8272e40800000000000000
+      internalID: 5631514641376115141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 267
+        width: 48
+        height: 32
+      alignment: 9
+      pivot: {x: 0.25366148, y: 0.7496824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1a527ece25079e0800000000000000
+      internalID: -1625708288036986461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 267
+        width: 40
+        height: 32
+      alignment: 9
+      pivot: {x: 0.31168517, y: 0.7002392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e1310baaca9ee30800000000000000
+      internalID: 4533344349023575608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 267
+        width: 39
+        height: 32
+      alignment: 9
+      pivot: {x: 0.30345115, y: 0.71654034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788c6378dd3301a60800000000000000
+      internalID: 7642665594197035143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 203
+        width: 32
+        height: 36
+      alignment: 9
+      pivot: {x: 0.47553337, y: 0.68252647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15587c198e805bf0800000000000000
+      internalID: -337613252513475301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 203
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46458817, y: 0.46909264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2a633c3597fe060800000000000000
+      internalID: 6984934947739312848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 203
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4058887, y: 0.4782533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4879203c238bd20800000000000000
+      internalID: 3294438940565013742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 203
+        width: 58
+        height: 52
+      alignment: 9
+      pivot: {x: 0.24218303, y: 0.5113361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc2622163d89ce0800000000000000
+      internalID: -1398135270156349483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 203
+        width: 58
+        height: 32
+      alignment: 9
+      pivot: {x: 0.2603744, y: 0.75787926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03dba30bf9b458d0800000000000000
+      internalID: -2858455375723900150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 203
+        width: 58
+        height: 28
+      alignment: 9
+      pivot: {x: 0.2368485, y: 0.8235114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274bb8fead9e178b0800000000000000
+      internalID: -5156082971831454606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 203
+        width: 56
+        height: 28
+      alignment: 9
+      pivot: {x: 0.25503758, y: 0.8252427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936d62ba25a5ba2f0800000000000000
+      internalID: -960574784408201671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 139
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bcf943e7ca9c350800000000000000
+      internalID: 6037546433515604817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 75
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffe2288cc7f4e500800000000000000
+      internalID: 424736722709049334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 75
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ab6c6419eb53490800000000000000
+      internalID: -7767092451163588009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 75
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a71087905684bf0800000000000000
+      internalID: -339910680523998653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 75
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: 0.43543378, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e785a412ffa526f0800000000000000
+      internalID: -709967911977646106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 75
+        width: 42
+        height: 40
+      alignment: 9
+      pivot: {x: 0.3627966, y: 0.49999982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3c75355b1420ae0800000000000000
+      internalID: -1584631871837846579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 75
+        width: 54
+        height: 40
+      alignment: 9
+      pivot: {x: 0.276409, y: 0.4862795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ff7dc0684360120800000000000000
+      internalID: 2379647203457630091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 75
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b7e5d9a937c8f0800000000000000
+      internalID: -520383830337013939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 15
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2f9f62cc3f4bab0800000000000000
+      internalID: -4993098028694244686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 13
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb04df0e0fc8de50800000000000000
+      internalID: 6834440093836774347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 15
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9212fba2bd9e9560800000000000000
+      internalID: 7322463434865513119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d1a697a26adff10800000000000000
+      internalID: 2305181285639396751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 12
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db53dbe6fab427350800000000000000
+      internalID: 6012951669342287293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 12
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dce20a973a7e4e00800000000000000
+      internalID: 1030895743940095192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 15
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2945fe4b89e1080800000000000000
+      internalID: -9214759884676623665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xeno Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 15
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f430671b0005919d0800000000000000
+      internalID: -2803121329153899697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d1bf3a21bf3a80d42a26967784416d04
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Xeno Tileset_0: 3432285809305461238
+      Xeno Tileset_1: 751419657897301001
+      Xeno Tileset_10: 6984934947739312848
+      Xeno Tileset_11: 3294438940565013742
+      Xeno Tileset_12: -1398135270156349483
+      Xeno Tileset_13: -2858455375723900150
+      Xeno Tileset_14: -5156082971831454606
+      Xeno Tileset_15: -960574784408201671
+      Xeno Tileset_16: 6037546433515604817
+      Xeno Tileset_17: 424736722709049334
+      Xeno Tileset_18: -7767092451163588009
+      Xeno Tileset_19: -339910680523998653
+      Xeno Tileset_2: 4159427689953681807
+      Xeno Tileset_20: -709967911977646106
+      Xeno Tileset_21: -1584631871837846579
+      Xeno Tileset_22: -6817572240090951316
+      Xeno Tileset_23: 2379647203457630091
+      Xeno Tileset_24: -520383830337013939
+      Xeno Tileset_25: -4993098028694244686
+      Xeno Tileset_26: 6834440093836774347
+      Xeno Tileset_27: 7322463434865513119
+      Xeno Tileset_28: 2305181285639396751
+      Xeno Tileset_29: 6012951669342287293
+      Xeno Tileset_3: 913404749084476158
+      Xeno Tileset_30: 1030895743940095192
+      Xeno Tileset_31: -9214759884676623665
+      Xeno Tileset_32: -2803121329153899697
+      Xeno Tileset_4: -4547411747313854413
+      Xeno Tileset_5: 5631514641376115141
+      Xeno Tileset_6: -1625708288036986461
+      Xeno Tileset_7: 4533344349023575608
+      Xeno Tileset_8: 7642665594197035143
+      Xeno Tileset_9: -337613252513475301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

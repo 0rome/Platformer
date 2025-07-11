@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 3a1b8d74e11f8d145a9fb59b7f3da381
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5028666870877115527
+    second: Skull Boy-Attack_0
+  - first:
+      213: -4057989365629188558
+    second: Skull Boy-Attack_1
+  - first:
+      213: 5545128750091878989
+    second: Skull Boy-Attack_2
+  - first:
+      213: 1376933980505729961
+    second: Skull Boy-Attack_3
+  - first:
+      213: 4725926170662169034
+    second: Skull Boy-Attack_4
+  - first:
+      213: -8374622262972625374
+    second: Skull Boy-Attack_5
+  - first:
+      213: -8065006345439662556
+    second: Skull Boy-Attack_6
+  - first:
+      213: 5814238912736832618
+    second: Skull Boy-Attack_7
+  - first:
+      213: -4982803698202158005
+    second: Skull Boy-Attack_8
+  - first:
+      213: -2584095770044637045
+    second: Skull Boy-Attack_9
+  - first:
+      213: 7918200433855981700
+    second: Skull Boy-Attack_10
+  - first:
+      213: 1458163722973185856
+    second: Skull Boy-Attack_11
+  - first:
+      213: 2207307688699000159
+    second: Skull Boy-Attack_12
+  - first:
+      213: -1802346819916793234
+    second: Skull Boy-Attack_13
+  - first:
+      213: -1059061470592212785
+    second: Skull Boy-Attack_14
+  - first:
+      213: 6875263581330187831
+    second: Skull Boy-Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skull Boy-Attack_0
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 33
+        height: 29
+      alignment: 9
+      pivot: {x: 0.7857, y: 0.46319547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b289bbf16963ab0800000000000000
+      internalID: -5028666870877115527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: 0.76952755, y: 0.4466337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2360c5f0c202fa7c0800000000000000
+      internalID: -4057989365629188558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.7168026, y: 0.44835505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d424807083144fc40800000000000000
+      internalID: 5545128750091878989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 57
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4968797, y: 0.3298459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab6533f82adb1310800000000000000
+      internalID: 1376933980505729961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_6
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 51
+        height: 30
+      alignment: 9
+      pivot: {x: 0.30593574, y: 0.46412554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2cc48577531090800000000000000
+      internalID: -8065006345439662556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 53
+        height: 28
+      alignment: 9
+      pivot: {x: 0.2888529, y: 0.48957375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6caee86c7350b050800000000000000
+      internalID: 5814238912736832618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 55
+        height: 27
+      alignment: 9
+      pivot: {x: 0.25760832, y: 0.50720835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c582fbf6689dab0800000000000000
+      internalID: -4982803698202158005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.7390367, y: 0.50711566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8066e89692732cd0800000000000000
+      internalID: -2584095770044637045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 33
+        height: 25
+      alignment: 9
+      pivot: {x: 0.77491856, y: 0.4857691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4886458975913ed60800000000000000
+      internalID: 7918200433855981700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 34
+        height: 25
+      alignment: 9
+      pivot: {x: 0.75636876, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0478d2c2e207c3410800000000000000
+      internalID: 1458163722973185856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 34
+        height: 25
+      alignment: 9
+      pivot: {x: 0.76160026, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5574e6e5aee1ae10800000000000000
+      internalID: 2207307688699000159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_13
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 48
+        height: 37
+      alignment: 9
+      pivot: {x: 0.33088556, y: 0.36631358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6afdc4dd17ccf6e0800000000000000
+      internalID: -1802346819916793234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull Boy-Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 55
+        height: 26
+      alignment: 9
+      pivot: {x: 0.26952016, y: 0.5273395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736ad5eecc7d96f50800000000000000
+      internalID: 6875263581330187831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4987f56fd43da1844bc6b3e1b0b43220
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skull Boy-Attack_0: -5028666870877115527
+      Skull Boy-Attack_1: -4057989365629188558
+      Skull Boy-Attack_10: 7918200433855981700
+      Skull Boy-Attack_11: 1458163722973185856
+      Skull Boy-Attack_12: 2207307688699000159
+      Skull Boy-Attack_13: -1802346819916793234
+      Skull Boy-Attack_14: -1059061470592212785
+      Skull Boy-Attack_15: 6875263581330187831
+      Skull Boy-Attack_2: 5545128750091878989
+      Skull Boy-Attack_3: 1376933980505729961
+      Skull Boy-Attack_4: 4725926170662169034
+      Skull Boy-Attack_5: -8374622262972625374
+      Skull Boy-Attack_6: -8065006345439662556
+      Skull Boy-Attack_7: 5814238912736832618
+      Skull Boy-Attack_8: -4982803698202158005
+      Skull Boy-Attack_9: -2584095770044637045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
