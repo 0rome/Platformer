@@ -11205,7 +11205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 5234472961125799940}
   DeathEffect: {fileID: 4121735978567266939, guid: 05fc786d0e9d5634ea6d75787fb27e50, type: 3}
-  maxBossHealth: 100
+  maxBossHealth: 1000
 --- !u!82 &1148833408977400461
 AudioSource:
   m_ObjectHideFlags: 0
