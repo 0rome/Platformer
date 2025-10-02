@@ -42,7 +42,7 @@ public class GamePauseManager : MonoBehaviour
         animator.SetTrigger("pauseOff");
         isPaused = !isPaused;
         sceneController = FindAnyObjectByType<SceneController>();
-        sceneController.LoadLevel(0);
+        sceneController.LoadLevel("MainMenu");
     }
     public void TogglePause()
     {

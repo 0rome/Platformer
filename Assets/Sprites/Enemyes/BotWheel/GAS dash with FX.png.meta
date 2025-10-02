@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 58a92b0af4a391842bb8da811baba81d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3280558609041705673
+    second: GAS dash with FX_0
+  - first:
+      213: -7989331480530117004
+    second: GAS dash with FX_1
+  - first:
+      213: 918799807393796724
+    second: GAS dash with FX_2
+  - first:
+      213: -2399544679920888673
+    second: GAS dash with FX_3
+  - first:
+      213: -1412855995135827
+    second: GAS dash with FX_4
+  - first:
+      213: 3184544373360929720
+    second: GAS dash with FX_5
+  - first:
+      213: 1054876385689883877
+    second: GAS dash with FX_6
+  - first:
+      213: -1289110952198072746
+    second: GAS dash with FX_7
+  - first:
+      213: 3873064555399584827
+    second: GAS dash with FX_8
+  - first:
+      213: -3770301781589263695
+    second: GAS dash with FX_9
+  - first:
+      213: 696735817372056305
+    second: GAS dash with FX_10
+  - first:
+      213: -8726384783637635857
+    second: GAS dash with FX_11
+  - first:
+      213: -1125669954281922037
+    second: GAS dash with FX_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GAS dash with FX_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 131
+        width: 89
+        height: 22
+      alignment: 9
+      pivot: {x: 0.11, y: 0.5925341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6ee4d0828ef7b46afb0b68da7cdcd0
+      internalID: -7989331480530117004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 105
+        width: 84
+        height: 22
+      alignment: 9
+      pivot: {x: 0.08, y: 0.5507341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faaef75faf56724f880fe54bf679d9b
+      internalID: 918799807393796724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 79
+        width: 84
+        height: 22
+      alignment: 9
+      pivot: {x: 0.07, y: 0.557242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5b319b88777924a9d37e98a049f321
+      internalID: -2399544679920888673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 157
+        width: 86
+        height: 17
+      alignment: 9
+      pivot: {x: 0.04322123, y: 0.7726476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19967c77227c6bc49b0993ac8f8f414e
+      internalID: 3184544373360929720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 53
+        width: 84
+        height: 22
+      alignment: 9
+      pivot: {x: 0.1, y: 0.5674955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70be65e8d6aa94f448a19eaaf633147c
+      internalID: 1054876385689883877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 27
+        width: 84
+        height: 22
+      alignment: 9
+      pivot: {x: 0.09, y: 0.56213206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc5a7e9b1d1e6d47b4f0e639ac747b0
+      internalID: -1289110952198072746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAS dash with FX_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 84
+        height: 22
+      alignment: 9
+      pivot: {x: 0.09, y: 0.5692707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d0a02fbe4ff724b8d4f36a118dffcb
+      internalID: 3873064555399584827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9eeed677688154742a3424eec888ce1f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GAS dash with FX_0: -3280558609041705673
+      GAS dash with FX_1: -7989331480530117004
+      GAS dash with FX_10: 696735817372056305
+      GAS dash with FX_11: -8726384783637635857
+      GAS dash with FX_12: -1125669954281922037
+      GAS dash with FX_2: 918799807393796724
+      GAS dash with FX_3: -2399544679920888673
+      GAS dash with FX_4: -1412855995135827
+      GAS dash with FX_5: 3184544373360929720
+      GAS dash with FX_6: 1054876385689883877
+      GAS dash with FX_7: -1289110952198072746
+      GAS dash with FX_8: 3873064555399584827
+      GAS dash with FX_9: -3770301781589263695
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

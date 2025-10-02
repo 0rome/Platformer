@@ -5,10 +5,14 @@ using UnityEngine.Pool;
 
 public class AutoShootWeapon : RangeWeapon
 {
-    private int currentAmmo; // Текущее количество патронов
+    [SerializeField] private float bulletSpeed = 10f;
+    [Range(0f, 100f)]
+    [SerializeField] private float spread = 5f; // кучность, градусы
+
+   private int currentAmmo; // Текущее количество патронов
     private bool isReloading; // Флаг перезарядки
 
-    void Start()
+    protected void Start()
     {
         currentAmmo = maxAmmo; // Устанавливаем полное количество патронов
 
@@ -18,7 +22,7 @@ public class AutoShootWeapon : RangeWeapon
 
         soundPlay = transform.Find("Sounds").GetComponent<SoundPlay>();
     }
-
+    
     protected void Update()
     {
         if (weaponIsActive)
@@ -46,14 +50,29 @@ public class AutoShootWeapon : RangeWeapon
 
     public override void Fire()
     {
-        nextFireTime = Time.time + attackSpeed; // Устанавливаем время следующего выстрела
+        nextFireTime = Time.time + attackSpeed;
 
         soundPlay.PlaySound(0);
+        currentAmmo--;
 
-        currentAmmo--; // Уменьшаем количество патронов
+        // создаём пулю без поворота (мы сами задаём направление)
+        var bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
-        var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation); // Создаём пулю на месте точки выстрела
+        // базовое направление (куда смотрит firePoint)
+        Vector2 dir = firePoint.right; // если ось X – дуло
+                                       // Vector2 dir = firePoint.up; // если ось Y – дуло
+
+        // случайное смещение в пределах spread
+        float randomAngle = UnityEngine.Random.Range(-spread, spread);
+        dir = Quaternion.Euler(0, 0, randomAngle) * dir;
+
+        // применяем скорость
+        var rb = bullet.GetComponent<Rigidbody2D>();
+        if (rb != null)
+            rb.linearVelocity = dir.normalized * bulletSpeed;
+
         bullet.GetComponent<Bullet>().SetDamage(damage);
+
 
         bulletsCountText.text = currentAmmo.ToString();
     }

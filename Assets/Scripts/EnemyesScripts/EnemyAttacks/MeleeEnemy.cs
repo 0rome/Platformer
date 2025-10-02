@@ -9,17 +9,14 @@ public class MeleeEnemy : EnemyAttackType
     [SerializeField] protected LayerMask playerLayer; // Слой игрока для проверки
 
     [Header("Effects")]
-    [SerializeField] private ParticleSystem attackEffect;
+    [SerializeField] protected ParticleSystem attackEffect;
 
     protected bool canAttack = true; // Контроль выполнения Attack
-    protected SoundPlay soundPlay;
     protected GameObject targetPlayer; // Сохранение ссылки на игрока
 
-    protected virtual void Start()
+    protected override void Start()
     {
-        animator = GetComponent<Animator>();
-
-        soundPlay = transform.Find("Sounds").GetComponent<SoundPlay>();
+        base.Start();
     }
 
     protected virtual void Update()
@@ -27,6 +24,7 @@ public class MeleeEnemy : EnemyAttackType
         Attack();
     }
 
+    //Атака
     public override void Attack()
     {
         if (!canAttack) return; // Если атака запрещена, просто выходим из метода
@@ -56,7 +54,8 @@ public class MeleeEnemy : EnemyAttackType
         }
     }
 
-    // Вызывается на первом кадре атаки (Animation Event)
+
+    //Вызывается при подтверждении атаки в аниматоре на кадре атаки
     private void ApplyAttack()
     {
         if (attackEffect != null)
@@ -76,6 +75,14 @@ public class MeleeEnemy : EnemyAttackType
         }
     }
 
+
+    // Сброс цели после завершения атаки (Animation Event)
+    protected void ResetAttackTarget()
+    {
+        targetPlayer = null;
+    }
+
+
     protected void OnDrawGizmosSelected()
     {
         // Визуализация радиуса атаки в редакторе
@@ -86,11 +93,5 @@ public class MeleeEnemy : EnemyAttackType
         }
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position + adjustedAttackOffset, attackRadius);
-    }
-
-    // Сброс цели после завершения атаки (Animation Event)
-    protected void ResetAttackTarget()
-    {
-        targetPlayer = null;
     }
 }

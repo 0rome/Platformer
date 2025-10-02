@@ -2,13 +2,8 @@ using UnityEngine;
 
 public class RicochetBullet : Bullet
 {
-    public override void BulletMovement()
-    {
-        transform.Translate(Vector3.right * speed * Time.deltaTime); // ƒвигаем пулю вперЄд
-    }
     private void Update()
     {
-        BulletMovement();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

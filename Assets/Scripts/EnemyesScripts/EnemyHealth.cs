@@ -5,7 +5,7 @@ using System.Collections;
 public class EnemyHealth : Enemy
 {
     [SerializeField] private Slider healthSlider;
-    [SerializeField] private Image fillImage; // ќсновной заполн€ющий бар
+    [SerializeField] private Image fillImage;
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private GameObject deathEffect;
 
@@ -13,10 +13,11 @@ public class EnemyHealth : Enemy
     private Vector2 defaultPosition;
     private Coroutine fadeCoroutine;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float GetCurrentHealth { get { return currentHealth; } }
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
         defaultPosition = transform.position;
     }
     private void Start()
@@ -27,15 +28,22 @@ public class EnemyHealth : Enemy
         healthSlider.value = currentHealth;
     }
 
+   
+
     public void TakeDamage(int damage)
     {
+        RaiseDamageEvent();
+
         currentHealth -= damage;
         healthSlider.value = currentHealth;
 
         animator.SetTrigger("Hit");
 
-        if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
-        fadeCoroutine = StartCoroutine(SmoothHealthFade());
+        if (gameObject.activeInHierarchy)
+        {
+            if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+            fadeCoroutine = StartCoroutine(SmoothHealthFade());
+        }
 
         if (currentHealth <= 0) Death();
     }
@@ -66,6 +74,8 @@ public class EnemyHealth : Enemy
     }
     private void Death()
     {
+        RaiseDeadEvent();
+
         Instantiate(deathEffect, transform.position,Quaternion.identity);
         gameObject.SetActive(false);
     }

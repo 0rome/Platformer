@@ -16,7 +16,6 @@ public class PlayerController : Player
     [SerializeField] private ParticleSystem DashEffect;
 
 
-    private Animator animator; // Компонент Animator
     private Transform groundCheck; // Точка для проверки земли
     private PlayerSounds playerSounds;
 
@@ -30,7 +29,6 @@ public class PlayerController : Player
 
     void Start()
     {
-        animator = GetComponent<Animator>();
         groundCheck = transform.Find("GroundCheck");
         playerSounds = GetComponent<PlayerSounds>();
     }

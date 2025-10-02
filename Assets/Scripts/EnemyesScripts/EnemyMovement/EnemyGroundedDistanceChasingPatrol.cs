@@ -12,23 +12,14 @@ public class EnemyGroundedDistanceChasingPatrol : EnemyGroundedPatrolling
     private Transform player;
     private Vector3 lastPosition;
 
-    new void Start()
+    private void Start()
     {
-        base.Start();
-
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void Update()
+    private void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        wallAhead = Physics2D.OverlapCircle(wallCheck.position, wallCheckDistance, groundLayer);
-
-        if (wallAhead)
-        {
-            Jump();
-        }
-        else if (player != null)
+        if (player != null)
         {
             Chasing();
         }

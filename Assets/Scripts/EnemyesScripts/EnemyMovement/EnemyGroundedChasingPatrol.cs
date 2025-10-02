@@ -9,23 +9,15 @@ public class EnemyGroundedChasingPatrol : EnemyGroundedPatrolling
     private Transform player;
     private Vector3 lastPosition;
 
-    new void Start()
-    {
-        base.Start();
 
+    private void Start()
+    {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void Update()
+    private void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        wallAhead = Physics2D.OverlapCircle(wallCheck.position, wallCheckDistance, groundLayer);
-
-        if (wallAhead)
-        {
-            Jump();
-        }
-        else if (player != null)
+        if (player != null)
         {
             Chasing();
         }
@@ -37,6 +29,8 @@ public class EnemyGroundedChasingPatrol : EnemyGroundedPatrolling
 
     private void Chasing()
     {
+        Jump();
+
         Vector2 directionToPlayer = (player.position - transform.position).normalized;
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 

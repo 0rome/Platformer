@@ -4,7 +4,7 @@ public class Traps : MonoBehaviour
 {
     private Vector3 defaultPosition;
 
-    public void Start()
+    public virtual void Start()
     {
         defaultPosition = transform.position; // Сохраняем позицию
     }

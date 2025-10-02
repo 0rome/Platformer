@@ -5,9 +5,7 @@ public class CheckPoint : MonoBehaviour
 {
     [SerializeField] private EnemyHealth[] Enemyes;
 
-    [SerializeField] private Traps[] Traps;
-
-    [SerializeField] private Boss[] Bosses;
+    [SerializeField] private Traps[] traps;
 
     private SoundPlay soundPlay;
     private Animator animator;
@@ -21,31 +19,18 @@ public class CheckPoint : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Player.activeSelf == false)
-        {
-            Player.transform.position = transform.position;
-            Player.SetActive(true);
-        }
-    }
+    
     public void RestoreLevel()
     {
-        if (Enemyes.Length != 0)
-        {
-            for (int i = 0; i < Enemyes.Length; i++)
-            {
-                Enemyes[i].Respawn();
-            }
-        }
-        if (Traps.Length != 0)
-        {
-            for (int i = 0; i < Traps.Length; i++)
-            {
-                Traps[i].RestoreTrap();
-            }
-        }
         
+        foreach (var enemy in Enemyes)
+        {
+            enemy.Respawn();
+        }
+        foreach (var trap in traps)
+        {
+            trap.RestoreTrap();
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

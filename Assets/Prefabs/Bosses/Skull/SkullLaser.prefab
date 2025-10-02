@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6322274939940495570}
   - component: {fileID: 5951505128421852049}
   - component: {fileID: 5857268179237037097}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SkullLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}

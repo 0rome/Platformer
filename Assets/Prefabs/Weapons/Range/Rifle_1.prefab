@@ -198,6 +198,8 @@ MonoBehaviour:
   maxAmmo: 15
   reloadTime: 2
   bulletsCountText: {fileID: 4587543206570632294}
+  bulletSpeed: 30
+  spread: 2
 --- !u!114 &1788137484126834142
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,17 +5,20 @@ using UnityEngine.Audio;
 
 public class BossfightManager : MonoBehaviour
 {
-    public Boss bossPrefab;
-    public Transform bossSpawnTransform;
-    public AudioSource music;
-    public AudioSource bossDeathSound;
+    [SerializeField] private Boss bossPrefab;
+    [SerializeField] private Transform bossSpawnTransform;
+    [SerializeField] private AudioSource music;
+    [SerializeField] private AudioSource bossDeathSound;
 
-    public GameObject[] doors;
+    [SerializeField] private GameObject[] doors;
+
+    public bool bossIsDead;
 
     private BoxCollider2D mBoxCollider;
     private PlayerHealth player;
     private Boss currentBoss;
     private Animator animator;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,10 +45,9 @@ public class BossfightManager : MonoBehaviour
     {
         for (int i = 0; i < doors.Length; i++)
         {
-            doors[i].GetComponent<Animator>().SetTrigger("End");
+            doors[i].GetComponent<Animator>().SetBool("isAlive",false);
         }
-        animator.SetTrigger("isDead");
-
+        bossIsDead = true;
         bossDeathSound.Play();
         music.Stop();
         PostProcessingEffects.StartColorAdjustmentAnimation(0,100,1);
@@ -60,15 +62,19 @@ public class BossfightManager : MonoBehaviour
         currentBoss = Instantiate(bossPrefab, bossSpawnTransform);
         currentBoss.gameObject.SetActive(false);
 
-        for (int i = 0; i < doors.Length; i++)
+        if (!currentBoss.gameObject.activeSelf)
         {
-            doors[i].GetComponent<Animator>().SetTrigger("End");
+            for (int i = 0; i < doors.Length; i++)
+            {
+                doors[i].GetComponent<Animator>().SetBool("isAlive", false);
+            }
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && !bossIsDead)
         {
             music.Play();
             currentBoss.gameObject.SetActive(true);
@@ -78,7 +84,7 @@ public class BossfightManager : MonoBehaviour
             for (int i = 0; i < doors.Length; i++)
             {
                 //doors[i].gameObject.SetActive(true);
-                doors[i].GetComponent<Animator>().SetTrigger("Start");
+                doors[i].GetComponent<Animator>().SetBool("isAlive", true);
             }
         }
     }

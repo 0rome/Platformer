@@ -1290,6 +1290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4212398268377550377}
   - component: {fileID: 6825196856719494524}
+  - component: {fileID: 1755174288688831241}
   m_Layer: 9
   m_Name: SkullSkill_4_f2
   m_TagString: Untagged
@@ -1417,6 +1418,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1755174288688831241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6786555905652532533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcad157ad1c0184ebd3751bdb7de047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 3
 --- !u!1 &7352722179782171749
 GameObject:
   m_ObjectHideFlags: 0

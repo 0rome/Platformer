@@ -55,6 +55,7 @@ public class BossHealth : Boss
             gameObject.GetComponent<PolygonCollider2D>().enabled = false;
 
             animator.SetTrigger("Death");
+            bossfightManager.BossIsDead();
             Invoke(nameof(DeactiveBoss), 3f); // Отключит через 3 секунды
         }
     }
@@ -76,7 +77,7 @@ public class BossHealth : Boss
     }
     private void DeactiveBoss()
     {
-        bossfightManager.BossIsDead();
+        
         animator.enabled = false; // Отключаем аниматор
         gameObject.SetActive(false);
     }

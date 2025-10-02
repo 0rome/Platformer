@@ -4,7 +4,7 @@ public class Mine : Traps
 {
     [SerializeField] private GameObject explosionPrefab;
 
-    private new void Start()
+    public override void Start()
     {
         base.Start();
     }

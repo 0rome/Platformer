@@ -15228,6 +15228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6508320781691551426}
+  - component: {fileID: 7553605069044396862}
   m_Layer: 0
   m_Name: SkullSkill_1_f2
   m_TagString: Untagged
@@ -15254,6 +15255,19 @@ Transform:
   - {fileID: 4633315239441029543}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7553605069044396862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6710345706780007154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcad157ad1c0184ebd3751bdb7de047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 5
 --- !u!1 &7164149059608012536
 GameObject:
   m_ObjectHideFlags: 0

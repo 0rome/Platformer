@@ -4,14 +4,16 @@ public class SitInTransport : MonoBehaviour
 {
     private GameObject currentTransport;
 
-    private CapsuleCollider2D Collider;
-    private PlayerController controller;
+    private Collider2D Collider;
+    private Inventory inventory;
+    private Player player;
     private Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Collider = GetComponent<CapsuleCollider2D>();
-        controller = GetComponent<PlayerController>();
+        Collider = GetComponent<Collider2D>();
+        player = GetComponent<Player>();
+        inventory = player.gameObject.GetComponent<Inventory>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -39,8 +41,9 @@ public class SitInTransport : MonoBehaviour
     }
     private void Sit()
     {
+        inventory.enabled = false;
         Collider.enabled = false;
-        controller.enabled = false;
+        player.enabled = false;
         if (currentTransport.tag == "MovableTransport")
         {
             rb.bodyType = RigidbodyType2D.Kinematic;
@@ -57,8 +60,9 @@ public class SitInTransport : MonoBehaviour
     }
     private void Out()
     {
+        inventory.enabled = true;
         Collider.enabled = true;
-        controller.enabled = true;
+        player.enabled = true;
         rb.bodyType = RigidbodyType2D.Dynamic;
 
         currentTransport.GetComponent<Transport>().enabled = false;

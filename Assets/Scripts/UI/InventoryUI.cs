@@ -3,11 +3,14 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    public Inventory inventory;
     public GameObject slotPrefab;
+
+    private Inventory inventory;
 
     void Start()
     {
+        inventory = GetComponentInParent<Inventory>();
+
         for (int i = 0; i < inventory.maxSlots; i++)
         {
             Instantiate(slotPrefab,transform);

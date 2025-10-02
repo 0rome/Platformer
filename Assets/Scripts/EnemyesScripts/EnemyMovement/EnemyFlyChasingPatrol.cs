@@ -1,67 +1,55 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyFlyChasingPatrol : EnemyFlyingPatrolling
+public class EnemyFlyChasingPatrol : MonoBehaviour
 {
-    [Header("Chasing settings")]
-    public float aggroRadius = 5f; // Радиус агра
+    [Header("Settings")]
+    public float aggroRadius = 8f;       // радиус агра
+    public float stoppingDistance = 1f;  // дистанция остановки перед игроком
 
-    private Transform player; // Ссылка на игрока
+    private Transform player;
+    private NavMeshAgent agent;
 
-    new void Start()
+    void Awake()
     {
-        base.Start();
+        agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        // ⚠️ Обязательно для 2D: фиксируем движение в XY-плоскости
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     void Update()
     {
-        if (player != null)
-        {
-            Chasing();
-        }
-        else
-        {
-            Movement();
-        }
-    }
+        if (player == null) return;
 
-    private void Chasing()
-    {
-        // Проверяем расстояние до игрока
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distance = Vector2.Distance(transform.position, player.position);
 
-        if (distanceToPlayer <= aggroRadius)
+        if (distance <= aggroRadius)
         {
-            // Если игрок в радиусе агра, преследуем его
+            // Летим за игроком
+            agent.isStopped = false;
+            agent.stoppingDistance = stoppingDistance;
             agent.SetDestination(player.position);
-
-            // Обновляем направление взгляда (вправо/влево)
-            Vector3 direction = (player.position - transform.position).normalized;
-            if (direction.x > 0.1f) // Смотрим вправо
-            {
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-            else if (direction.x < -0.1f) // Смотрим влево
-            {
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-
-            // Включаем анимацию движения
-            animator.SetFloat("speed", 1);
         }
         else
         {
-            // Если игрок вне радиуса агра, возвращаемся к патрулированию
-            agent.ResetPath();
-            Movement();
+            // Не агримся — стоим
+            agent.isStopped = true;
         }
+
+        // Разворот по направлению движения (влево/вправо)
+        if (agent.velocity.x > 0.1f)
+            transform.localScale = new Vector3(1, 1, 1);
+        else if (agent.velocity.x < -0.1f)
+            transform.localScale = new Vector3(-1, 1, 1);
     }
 
-    // Рисуем радиус агра в редакторе
-    void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, aggroRadius);
     }
 }
+

@@ -1,96 +1,36 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class SpaceshipController : Transport
+public class SpaceshipController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float thrust = 5f; // Сила ускорения
-    public float rotationSpeed = 100f; // Скорость поворота
+    [SerializeField] private float forwardSpeed = 5f;  // постоянная скорость вперёд
+    [SerializeField] private float sideSpeed = 3f;     // скорость смещения вправо/влево
 
-    [Header("Thrusters")]
-    [SerializeField] private ParticleSystem[] leftThrusters; // Левые Particle System
-    [SerializeField] private ParticleSystem[] rightThrusters; // Правые Particle System
-
-    private SoundPlay soundPlay;
     private Rigidbody2D rb;
-    private bool isMoving;
+    private Vector2 moveInput;
+    private Animator animator;
 
     void Start()
     {
-        soundPlay = GetComponent<SoundPlay>();
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0; // корабль не падает
     }
 
     void Update()
     {
-        Controll();
+        // Двигаем объект вперёд (ось Y вперёд в 2D, если нужно ось X — поменяй)
+        Vector3 forwardMove = Vector3.up * forwardSpeed * Time.deltaTime;
+
+        // Управление вправо/влево
+        float horizontal = Input.GetAxis("Horizontal"); // A/D или стрелки ← →
+        Vector3 sideMove = Vector3.right * horizontal * sideSpeed * Time.deltaTime;
+
+        // Применяем движение
+        transform.position += forwardMove + sideMove;
+
+        animator.SetFloat("xDir", horizontal, 0.1f, Time.deltaTime);
     }
 
-    public override void Controll()
-    {
-        HandleMovement();
-        HandleRotation();
-    }
 
-    private void HandleMovement()
-    {
-        if (Input.GetKey(KeyCode.W))
-        {
-            if (!isMoving)
-            {
-                isMoving = true;
-                soundPlay.PlaySound(0);
-            }
-
-            rb.AddForce(transform.up * thrust * Time.deltaTime); // Применяем силу для движения вперёд
-        }
-        else if (isMoving)
-        {
-            isMoving = false;
-            soundPlay.StopSound(0);
-        }
-    }
-
-    private void HandleRotation()
-    {
-        float rotation = 0;
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            rotation += rotationSpeed;
-            ToggleThrusters(rightThrusters, true);
-        }
-        else
-        {
-            ToggleThrusters(rightThrusters, false);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            rotation -= rotationSpeed;
-            ToggleThrusters(leftThrusters, true);
-        }
-        else
-        {
-            ToggleThrusters(leftThrusters, false);
-        }
-
-        // Применяем поворот
-        rb.rotation += rotation * Time.deltaTime;
-    }
-
-    private void ToggleThrusters(ParticleSystem[] thrusters, bool activate)
-    {
-        foreach (var thruster in thrusters)
-        {
-            if (activate && !thruster.isPlaying)
-            {
-                thruster.Play();
-            }
-            else if (!activate && thruster.isPlaying)
-            {
-                thruster.Stop();
-            }
-        }
-    }
 }

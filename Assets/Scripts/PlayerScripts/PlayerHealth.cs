@@ -1,19 +1,25 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class PlayerHealth : Player
 {
+    public bool isImmortal;
+
     [SerializeField] private GameObject DeathEffect;
-    [SerializeField] private Transitions transitions;
-    [SerializeField] private bool isImmortal;
 
     private SpriteRenderer spriteRenderer;
     private Transform currentCheckPoint;
     private Vector2 defaultSpawnPosition;
     private BossfightManager bossfightManager;
+    private PlayerDeathTransition playerDeathTransition;
+
+    public static event Action OnDead;
 
     private void Start()
     {
+        playerDeathTransition = GetComponentInChildren<PlayerDeathTransition>();
+
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         bossfightManager = FindFirstObjectByType<BossfightManager>();
@@ -28,19 +34,18 @@ public class PlayerHealth : Player
             Instantiate(DeathEffect, transform.position, Quaternion.identity);
             StartCoroutine(RespawnPlayer());
 
+            
             playerController.enabled = false;
             spriteRenderer.enabled = false;
             playerCollider.enabled = false;
             rb.bodyType = RigidbodyType2D.Kinematic;
+
+            OnDead?.Invoke();
         }
         else
         {
             Debug.Log("Player is immortal");
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -51,7 +56,7 @@ public class PlayerHealth : Player
     }
     public void SetCheckPoint(Transform pointTransform)
     {
-        if (currentCheckPoint != null)
+        if (currentCheckPoint != null && currentCheckPoint.GetComponent<CheckPoint>() != null)
         {
             currentCheckPoint.GetComponent<CheckPoint>().Deactivate();
         }
@@ -59,10 +64,12 @@ public class PlayerHealth : Player
     }
     IEnumerator RespawnPlayer()
     {
-        transitions.StartTransition();
+
+        playerDeathTransition.StartTransition();
 
         yield return new WaitForSeconds(1);
 
+        
         playerController.enabled = true;
         spriteRenderer.enabled = true;
         playerCollider.enabled = true;
@@ -70,9 +77,8 @@ public class PlayerHealth : Player
 
         if (bossfightManager != null) { bossfightManager.RespawnBoss(); }
 
-        if (currentCheckPoint != null)
+        if (currentCheckPoint != null && currentCheckPoint.GetComponent<CheckPoint>() != null)
         {
-            transform.position = currentCheckPoint.position;
             currentCheckPoint.GetComponent<CheckPoint>().RestoreLevel();
         }
         else

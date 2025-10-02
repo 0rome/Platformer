@@ -120,7 +120,7 @@ public class SkullController : BossController
 
     private void Fase_2()
     {
-        animator.SetTrigger("Fase_2");
+        animator.SetBool("Fase_2",true);
         fase_2 = true;
         soundPlay.PlaySound(1);
         CameraShake.instance.Shake(0.3f,0.3f);

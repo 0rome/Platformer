@@ -4,32 +4,29 @@ using UnityEngine.AI;
 public class EnemyFlyingPatrolling : EnemyMovement
 {
     [Header("Patrol Settings")]
-    [SerializeField] private float patrolDistance = 5f; // Расстояние между точками патрулирования
-    [SerializeField] private float waitTime = 1f; // Время ожидания на точке
-
-    protected NavMeshAgent agent;
+    [SerializeField] protected float patrolDistance = 5f; // Расстояние между точками патрулирования
+    [SerializeField] protected float waitTime = 1f; // Время ожидания на точке
+    [SerializeField] protected float speed = 5f;
+    [SerializeField] protected LayerMask groundLayer; // Слой земли
 
     private Vector3 pointA; // Первая точка патрулирования
     private Vector3 pointB; // Вторая точка патрулирования
     private float waitTimer; // Таймер ожидания
 
+    protected SoundPlay soundPlay;
     protected Vector3 targetPoint; // Целевая точка, к которой движется враг
 
-    protected void Start()
+    public override void Awake()
     {
+        base.Awake();
+
         animator = GetComponent<Animator>();
 
-        // Настройки NavMeshAgent для 2D
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateUpAxis = false; // Отключает ориентацию вверх
-        agent.updateRotation = false; // Отключает автоматическое вращение
-
-        // Инициализация точек патрулирования на основе текущей позиции врага
         pointA = transform.position;
         pointB = pointA + transform.right * patrolDistance;
         targetPoint = pointA; // Начинаем движение к первой точке
+        soundPlay = transform.Find("Sounds").GetComponent<SoundPlay>();
     }
-
     private void Update()
     {
         Movement();
@@ -40,7 +37,7 @@ public class EnemyFlyingPatrolling : EnemyMovement
         Patrol();
     }
 
-    private void Patrol()
+    protected void Patrol()
     {
         if (waitTimer > 0f)
         {
@@ -55,8 +52,9 @@ public class EnemyFlyingPatrolling : EnemyMovement
         }
         else
         {
+
             // Двигаем врага к целевой точке
-            agent.SetDestination(targetPoint);
+            transform.position = Vector3.MoveTowards(transform.position, targetPoint, Time.deltaTime * speed);
 
             // Рассчитываем направление движения
             Vector3 direction = (targetPoint - transform.position).normalized;

@@ -4,17 +4,17 @@ using UnityEngine.UIElements;
 public class EnemyGroundedPatrolling : EnemyMovement
 {
     [Header("Patrol Settings")]
-    public float waitTime = 1f; // Время ожидания на точке
-    public float speed = 3f; // Скорость передвижения
-    public float patrolDistance = 5;
+    [SerializeField] protected float waitTime = 1f; // Время ожидания на точке
+    [SerializeField] protected float speed = 3f; // Скорость передвижения
+    [SerializeField] protected float patrolDistance = 5;
 
     [Header("Jump Settings")]
-    public float jumpForce = 10f; // Сила прыжка
-    public float wallCheckDistance = 0.6f; // Расстояние до стены
-    public float groundCheckRadius = 0.2f; // Радиус проверки земли
-    public Transform groundCheck; // Точка проверки земли
-    public Transform wallCheck; // Точка проверки стен
-    public LayerMask groundLayer; // Слой земли
+    [SerializeField] protected float jumpForce = 10f; // Сила прыжка
+    [SerializeField] protected float wallCheckDistance = 0.6f; // Расстояние до стены
+    [SerializeField] protected float groundCheckRadius = 0.2f; // Радиус проверки земли
+    [SerializeField] protected Transform groundCheck; // Точка проверки земли
+    [SerializeField] protected Transform wallCheck; // Точка проверки стен
+    [SerializeField] protected LayerMask groundLayer; // Слой земли
 
     protected Rigidbody2D rb;
     protected bool isGrounded;
@@ -28,8 +28,10 @@ public class EnemyGroundedPatrolling : EnemyMovement
 
     protected SoundPlay soundPlay;
 
-    protected void Start()
+    public override void Awake()
     {
+        base.Awake();
+
         pointA = transform.position;
         pointB = pointA + transform.right * patrolDistance;
         targetPoint = pointA; // Начинаем движение к первой точке
@@ -38,26 +40,20 @@ public class EnemyGroundedPatrolling : EnemyMovement
         soundPlay = transform.Find("Sounds").GetComponent<SoundPlay>();
     }
 
-    void Update()
+    private void Update()
     {
-        //wallAhead = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, wallCheckDistance, groundLayer);
-
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        wallAhead = Physics2D.OverlapCircle(wallCheck.position, wallCheckDistance, groundLayer);
-
-        Debug.Log("isGrounded: " + isGrounded);
-
-        Patrol();
+        Movement();
     }
 
     public override void Movement()
     {
         Patrol();
+        Jump();
     }
+
+
     protected void Patrol()
     {
-        Jump();
-
         if (waitTimer > 0f)
         {
             waitTimer -= Time.deltaTime;
@@ -95,13 +91,20 @@ public class EnemyGroundedPatrolling : EnemyMovement
             }
         }
     }
+
+
     protected void Jump()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        wallAhead = Physics2D.OverlapCircle(wallCheck.position, wallCheckDistance, groundLayer);
+
         if (isGrounded && wallAhead)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
+
+
     private void OnDrawGizmos()
     {
         if (!Application.isPlaying)

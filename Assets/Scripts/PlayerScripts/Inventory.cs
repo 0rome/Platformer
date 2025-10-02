@@ -7,10 +7,15 @@ public class Inventory : MonoBehaviour
    [HideInInspector] public Weapon activeWeapon;
    [HideInInspector] public List<Weapon> takenWeapons = new List<Weapon>();
 
-    public InventoryUI inventoryUI;
     public int maxSlots = 5;
 
+    private InventoryUI inventoryUI;
     private Weapon weaponInTrigger;
+
+    private void Start()
+    {
+        inventoryUI = GetComponentInChildren<InventoryUI>();
+    }
 
     private void PickUpWeapon(Weapon weapon)
     {

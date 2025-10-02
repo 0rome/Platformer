@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 734bc71c18216964f8c8f0e9cdeec1d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7194890605299390076
+    second: WarhammerBossSkelet_0
+  - first:
+      213: 8000254557334814688
+    second: WarhammerBossSkelet_1
+  - first:
+      213: 1996535123591135662
+    second: WarhammerBossSkelet_2
+  - first:
+      213: 4543555030889488447
+    second: WarhammerBossSkelet_3
+  - first:
+      213: 1952509413441394582
+    second: WarhammerBossSkelet_4
+  - first:
+      213: 3911362945666165123
+    second: WarhammerBossSkelet_5
+  - first:
+      213: 153594171417312701
+    second: WarhammerBossSkelet_6
+  - first:
+      213: -6117405877088378402
+    second: WarhammerBossSkelet_7
+  - first:
+      213: -4387197663876517873
+    second: WarhammerBossSkelet_8
+  - first:
+      213: 1389324299885957463
+    second: WarhammerBossSkelet_9
+  - first:
+      213: -5846993773489353960
+    second: WarhammerBossSkelet_10
+  - first:
+      213: 251159589645248502
+    second: WarhammerBossSkelet_11
+  - first:
+      213: -6190534733810941835
+    second: WarhammerBossSkelet_12
+  - first:
+      213: 686864158835529308
+    second: WarhammerBossSkelet_13
+  - first:
+      213: -2549034049352956544
+    second: WarhammerBossSkelet_14
+  - first:
+      213: -8524229694491181070
+    second: WarhammerBossSkelet_15
+  - first:
+      213: 1737891411610387530
+    second: WarhammerBossSkelet_16
+  - first:
+      213: 601666367054262748
+    second: WarhammerBossSkelet_17
+  - first:
+      213: -3689057470283528609
+    second: WarhammerBossSkelet_18
+  - first:
+      213: -6087421544102304409
+    second: WarhammerBossSkelet_19
+  - first:
+      213: 3217328059113328032
+    second: WarhammerBossSkelet_20
+  - first:
+      213: -417097434936256041
+    second: WarhammerBossSkelet_21
+  - first:
+      213: 1624157687155167744
+    second: WarhammerBossSkelet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_0
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1240
+        width: 491
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c765aa6a2e269d360800000000000000
+      internalID: 7194890605299390076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_1
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1294
+        width: 241
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef34aaf12d960f60800000000000000
+      internalID: 8000254557334814688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_2
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1404
+        width: 122
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea18d37ed1e15bb10800000000000000
+      internalID: 1996535123591135662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_4
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1264
+        width: 244
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697d7c877f4b81b10800000000000000
+      internalID: 1952509413441394582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1125
+        width: 90
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1a24524cb9a1ba0800000000000000
+      internalID: -6117405877088378402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1088
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00773518fa8d13c0800000000000000
+      internalID: -4387197663876517873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 886
+        width: 276
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751558cf61fd74310800000000000000
+      internalID: 1389324299885957463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_10
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 946
+        width: 299
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b0f37442e4bdea0800000000000000
+      internalID: -5846993773489353960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 888
+        width: 199
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7ecbae05c4c7300800000000000000
+      internalID: 251159589645248502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 829
+        width: 147
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5704b7d557dc61aa0800000000000000
+      internalID: -6190534733810941835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 728
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08501f7990300acd0800000000000000
+      internalID: -2549034049352956544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_15
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 453
+        width: 202
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff3404914ad3b980800000000000000
+      internalID: -8524229694491181070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 479
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a444d37f70b3e1810800000000000000
+      internalID: 1737891411610387530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 445
+        width: 247
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1b1918f5c895800800000000000000
+      internalID: 601666367054262748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 201
+        width: 175
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56cfb7b6c5ddccc0800000000000000
+      internalID: -3689057470283528609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 195
+        width: 161
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765e8b1bb52258ba0800000000000000
+      internalID: -6087421544102304409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 77
+        width: 155
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9d5e1c71c263af0800000000000000
+      internalID: -417097434936256041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarhammerBossSkelet_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 77
+        width: 172
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0029a12bfca2a8610800000000000000
+      internalID: 1624157687155167744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d4d680da80d4f84bb22e2a949403741
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WarhammerBossSkelet_0: 7194890605299390076
+      WarhammerBossSkelet_1: 8000254557334814688
+      WarhammerBossSkelet_10: -5846993773489353960
+      WarhammerBossSkelet_11: 251159589645248502
+      WarhammerBossSkelet_12: -6190534733810941835
+      WarhammerBossSkelet_13: 686864158835529308
+      WarhammerBossSkelet_14: -2549034049352956544
+      WarhammerBossSkelet_15: -8524229694491181070
+      WarhammerBossSkelet_16: 1737891411610387530
+      WarhammerBossSkelet_17: 601666367054262748
+      WarhammerBossSkelet_18: -3689057470283528609
+      WarhammerBossSkelet_19: -6087421544102304409
+      WarhammerBossSkelet_2: 1996535123591135662
+      WarhammerBossSkelet_20: 3217328059113328032
+      WarhammerBossSkelet_21: -417097434936256041
+      WarhammerBossSkelet_22: 1624157687155167744
+      WarhammerBossSkelet_3: 4543555030889488447
+      WarhammerBossSkelet_4: 1952509413441394582
+      WarhammerBossSkelet_5: 3911362945666165123
+      WarhammerBossSkelet_6: 153594171417312701
+      WarhammerBossSkelet_7: -6117405877088378402
+      WarhammerBossSkelet_8: -4387197663876517873
+      WarhammerBossSkelet_9: 1389324299885957463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
