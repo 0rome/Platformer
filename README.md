@@ -5,6 +5,8 @@ You play as a planetary liberator defending against Eathers Incorporated — an 
 Your mission is to stop them from infiltrating the planet unnoticed… or to wipe them out completely.
 Your decisions shape how the world reacts and evolves.
 
+itch (https://sarutb.itch.io/eathers-inc)
+
 ⚡ Features
 
 Fast-paced and dynamic battles
