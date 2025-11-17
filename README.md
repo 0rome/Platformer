@@ -1,13 +1,19 @@
-Description: You play as a planetary liberator defending against Eathers Incorporated, an organization that enslaves planets and consumes all resources, ultimately leading to their destruction. Your task is to prevent them from infiltrating the planet undetected or to destroy them all. Depending on your actions, the world will behave differently.
+🌌 Eathers Ink — Planetary Liberation Project
+Description
 
-● Fast paced and dynamic battles
-● Unique bosses with different mechanics
-● Pixel graphics
+You play as a planetary liberator defending against Eathers Incorporated — an organization that enslaves planets and consumes all available resources until nothing remains.
+Your mission is to stop them from infiltrating the planet unnoticed… or to wipe them out completely.
+Your decisions shape how the world reacts and evolves.
 
-![gif](https://github.com/0rome/Platformer/blob/main/Eathers_Ink_trailer_0.1.gif?raw=true)
-![screen_1](https://github.com/0rome/Platformer/blob/main/s6.png?raw=true) 
-![screen_2](https://github.com/0rome/Platformer/blob/main/s1.png?raw=true)
-![screen_3](https://github.com/0rome/Platformer/blob/main/s2.png?raw=true)
-![screen_4](https://github.com/0rome/Platformer/blob/main/s3.png?raw=true)
-![screen_5](https://github.com/0rome/Platformer/blob/main/s4.png?raw=true)
-![screen_6](https://github.com/0rome/Platformer/blob/main/s5.png?raw=true)
+⚡ Features
+
+Fast-paced and dynamic battles
+
+Unique bosses with different mechanics
+
+Stylish pixel graphics
+
+🎥 Trailer
+<p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/Eathers_Ink_trailer_0.1.gif?raw=true" alt="Trailer GIF"> </p>
+🖼️ Screenshots
+<p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s6.png?raw=true" width="600"> </p> <p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s1.png?raw=true" width="600"> </p> <p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s2.png?raw=true" width="600"> </p> <p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s3.png?raw=true" width="600"> </p> <p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s4.png?raw=true" width="600"> </p> <p align="center"> <img src="https://github.com/0rome/Platformer/blob/main/s5.png?raw=true" width="600"> </p>
